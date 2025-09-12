@@ -1,0 +1,15 @@
+/* Write your code here. */
+.emoji-img {
+  height: 100px;
+}
+.emoji-card {
+  border-style: none;
+  padding: 30px;
+  background-color: #ffffff33;
+
+  border-radius: 10px;
+  margin: 10px;
+}
+li {
+  list-style: none;
+}

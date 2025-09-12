@@ -1,0 +1,25 @@
+/* Write your code here. */
+.won-lose-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  padding: 50px;
+}
+.user-text {
+  color: white;
+  font-size: 45px;
+}
+.score-text {
+  color: white;
+}
+.score-bord {
+  color: #6a59ff;
+}
+.try-again-btn {
+  background-color: #ffce27;
+  border-style: none;
+  padding: 11px 19px;
+  border-radius: 10px;
+}

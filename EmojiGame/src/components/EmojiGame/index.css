@@ -1,0 +1,16 @@
+/* Write your code here. */
+.emojicard-or-scoreBord {
+  height: 90vh;
+  display: flex;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojoi-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
