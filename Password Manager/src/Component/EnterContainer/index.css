@@ -1,0 +1,109 @@
+.sp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.showPassword-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.input-conatainers {
+  height: 40px;
+}
+.inputs {
+  width: 100%;
+}
+img {
+  height: 20px;
+}
+h1 {
+  color: white;
+  font-size: 20px;
+}
+.input-btn-conatainers {
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.form-conatainer {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 50vw;
+}
+
+.password-manager-img-lg {
+  height: 300px;
+}
+.password-manager-img-sm {
+  display: none;
+}
+.main-form-conatainer {
+  padding: 40px;
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0px;
+  border-radius: 10px;
+}
+
+.add-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  color: white;
+
+  border-radius: 6px;
+  border-style: none;
+  padding: 5px 20px;
+}
+
+.no-password {
+  height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-form-conatainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-conatainer {
+    max-width: 100vw;
+    order: 2;
+  }
+  .password-manager-img-sm {
+    height: 200px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .password-manager-img-lg {
+    display: none;
+  }
+  .main-form-conatainer {
+    margin: 0px;
+    padding: 20px;
+  }
+  .make-it-Center {
+    display: flex;
+    justify-content: center;
+  }
+  .inputs {
+    width: 49vw;
+  }
+}
